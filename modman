@@ -1,0 +1,11 @@
+app/code/local/Fram/ProductRequest  app/code/local/Fram/ProductRequest
+app/etc/modules/Fram_ProductRequest.xml app/etc/modules/Fram_ProductRequest.xml
+app/locale/en_US/template/email/productrequest  app/locale/en_US/template/email/productrequest
+app/design/adminhtml/default/default/layout/productrequest.xml  app/design/adminhtml/default/default/layout/productrequest.xml
+app/design/adminhtml/default/default/template/productrequest    app/design/adminhtml/default/default/template/productrequest
+app/design/frontend/base/default/layout/productrequest.xml  app/design/frontend/base/default/layout/productrequest.xml
+app/design/frontend/base/default/template/productrequest    app/design/frontend/base/default/template/productrequest
+skin/frontend/base/default/css/productrequest   skin/frontend/base/default/css/productrequest
+skin/frontend/base/default/images/productrequest    skin/frontend/base/default/images/productrequest
+skin/frontend/base/default/js/productrequest    skin/frontend/base/default/js/productrequest
+skin/adminhtml/default/default/images/productrequest    skin/adminhtml/default/default/images/productrequest

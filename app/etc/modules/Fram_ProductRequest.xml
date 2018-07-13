@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <Fram_ProductRequest>
+            <active>true</active>
+            <codePool>local</codePool>
+        </Fram_ProductRequest>
+    </modules>
+</config>

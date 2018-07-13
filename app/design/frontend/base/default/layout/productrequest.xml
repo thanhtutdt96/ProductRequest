@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<layout>
+    <productrequest_index_index>
+        <reference name="content">
+            <block type="productrequest/request" template="productrequest/request.phtml"/>
+        </reference>
+        <reference name="head">
+            <action method="addCss">
+                <stylesheet>css/productrequest/styles.css</stylesheet>
+            </action>
+        </reference>
+    </productrequest_index_index>
+</layout>

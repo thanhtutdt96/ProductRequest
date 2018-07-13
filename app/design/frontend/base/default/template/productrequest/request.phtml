@@ -1,0 +1,43 @@
+<form action="<?php echo Mage::getUrl('productrequest/index/submit'); ?>" method="post" id="fram-request-form" enctype="multipart/form-data">
+    <div class="fram-field-set">
+        <h2><?php echo Mage::helper('productrequest')->__('<b>Request Product</b> Form') ?></h2>
+        <div class="fram-input-container">
+            <label for="fram-name"
+                   class="required"><?php echo Mage::helper('productrequest')->__('Name'); ?><em>*</em></label>
+            <div class="fram-input">
+                <input name="customer_name" id="fram-name" class="input-text required-entry" type="text" required
+                       title="<?php echo Mage::helper('productrequest')->__('Enter your name') ?>"
+                       style="background: url(<?php echo $this->getSkinUrl('images/productrequest/user.png'); ?>) no-repeat right 5px center; width: 300px; height: 30px">
+            </div>
+        </div>
+        <div class="fram-input-container">
+            <label for="fram-mail"
+                   class="required"><?php echo Mage::helper('productrequest')->__('Email'); ?><em>*</em></label>
+            <div class="fram-input">
+                <input name="customer_email" id="fram-mail" class="input-text required-entry" type="email" required
+                       title="<?php echo Mage::helper('productrequest')->__('Enter your email') ?>"
+                       style="background: url(<?php echo $this->getSkinUrl('images/productrequest/email.png'); ?>) no-repeat right 5px center; width: 300px; height: 30px">
+            </div>
+        </div>
+        <div class="fram-input-container">
+            <label for="fram-image"><?php echo Mage::helper('productrequest')->__('Image (*.jpg, *.png)'); ?></label>
+            <div class="fram-input">
+                <input name="image" id="fram-image" class="image-item-upload" type="file"
+                       accept="image/jpeg,image/png"
+                       title="<?php echo Mage::helper('productrequest')->__('Upload your image') ?>">
+            </div>
+        </div>
+        <div class="fram-input-container">
+            <label for="fram-comment"><?php echo Mage::helper('productrequest')->__('Comment'); ?><em>*</em></label>
+            <div class="fram-input">
+                <textarea name="comment" id="fram-comment" class="input-text required-entry" required title="<?php Mage::helper('productrequest')->__('Enter your comment') ?>" rows="5" cols="3"></textarea>
+            </div>
+        </div>
+        <div class="fram-buttons-set">
+            <p class="fram-required"><em>* </em><?php echo Mage::helper('productrequest')->__('Required Fields') ?></p>
+            <button type="submit" title="<?php echo Mage::helper('productrequest')->__('Submit') ?>" class="button">
+                <span><?php echo Mage::helper('productrequest')->__('Submit') ?></span></button>
+        </div>
+    </div>
+</form>
+

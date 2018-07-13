@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<layout>
+    <adminhtml_request_index>
+        <reference name="content">
+            <block type="productrequest/adminhtml_container"/>
+        </reference>
+    </adminhtml_request_index>
+</layout>
